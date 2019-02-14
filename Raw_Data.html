@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Raw Data</title>
+
+        <!-- Bootstrap -->
+         <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+         <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="css/fixed.css">
+      
+</head>
+
+<style>
+     table, th, td { border: 1px solid black;}
+     h1 {color:#1EBBA3 font-size: 3rem; font-weight: 700; text-shadow: .1rem .1rem .5rem white;}
+     h3 {color:#1EBBA3}
+</style>
+
+
+<div class="col-12 narrow text-center">
+        <h1>Raw Data</h1>
+        <h3>What was wrong?</h3>
+        <body> 
+        Data had whitespace & random characters which disables pandas capabilities
+        <br>
+        Each listing had different amounts of data
+        </body>
+    
+    </div>
+    
+    <br>
+    <br>
+
+
+<table class="table table-bordered table-hover table-condensed">
+    <thread> <tr><th>#bedrooms</th><th>$price</th><th>Neighborhood</th><th>Post_Time</th><th>Post_Title</th><th>URL</th></tr> </thread>
+
+    <tbody>
+        <tr><td>['']</td><td>3250</td><td> (nob hill)</td><td>43508</td><td>2 bedroom with hardwood and large rooms near Polk</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2-bedroom-with-hardwood/6818165978.html</td></tr>
+        <tr><td>['']</td><td>3450</td><td> (north beach / telegraph hill)</td><td>43508</td><td>Prime North Beach, Union @ Stockton 2BR/1BA, good size unit for rent..</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-prime-north-beach-union/6813029028.html</td></tr>
+        <tr><td>['']</td><td>3095</td><td> (lower nob hill)</td><td>43508</td><td>Bright and Spacious - Newly renovated 1Br w/Den</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-and-spacious-newly/6816304843.html</td></tr>
+        <tr><td>[" '850", "'"]</td><td>3100</td><td> (nob hill)</td><td>43508</td><td>Hyde/Clay Sts 2 bdrm, liv rm, xtra bonus rm, carpet, lar kit, grt loc</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-hyde-clay-sts-2-bdrm-liv/6817385660.html</td></tr>
+        <tr><td>['']</td><td>3095</td><td> (lower nob hill)</td><td>43507</td><td>Bright and Spacious - Newly renovated 1Br w/Den</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-and-spacious-newly/6813415853.html</td></tr>
+        <tr><td>[" '750", "'"]</td><td>3495</td><td> (nob hill)</td><td>43507</td><td>New Two Bedroom in Nob Hill</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-new-two-bedroom-in-nob/6814853385.html</td></tr>
+        <tr><td>[" '515", "'"]</td><td>2988</td><td> (nob hill)</td><td>43507</td><td>2 bedroom ​freshly remodeled. Clay & Mason</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2-bedroom-freshly/6817218156.html</td></tr>
+        <tr><td>['']</td><td>2950</td><td> (nob hill)</td><td>43507</td><td>2 Bedroom 1 Bathroom Recently Renovated Apt Available April 1</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2-bedroom-1-bathroom/6817209145.html</td></tr>
+        <tr><td>['']</td><td>3500</td><td> (north beach / telegraph hill)</td><td>43507</td><td>Charming 2/1, HW, laundry, great location!</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-2-1-hw-laundry/6814658751.html</td></tr>
+        <tr><td>['']</td><td>3400</td><td> (nob hill)</td><td>43506</td><td>2 BR Available For Rent- $3400</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2-br-available-for-rent/6816486801.html</td></tr>
+        <tr><td>['']</td><td>3400</td><td> (nob hill)</td><td>43506</td><td>2 BR Available For Rent- $3400</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2-br-available-for-rent/6816486616.html</td></tr>
+        <tr><td>['']</td><td>3395</td><td> (lower nob hill)</td><td>43506</td><td>721 Geary #5 - $95 Move-In Special - Available Now!</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-721-geary-5-95-move-in/6796974937.html</td></tr>
+        <tr><td>[" '1", "'"]</td><td>2000</td><td> (russian hill)</td><td>43506</td><td>Room for Rent : 2 bedroom/1 bathroom</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-room-for-rent-2-bedroom-1/6816470635.html</td></tr>
+        <tr><td>[" '850", "'"]</td><td>2950</td><td> (lower pac hts)</td><td>43506</td><td>SUTTER ST NR. PRESIDIO 2 BR APT. EXC. DESIRABLE LOCATIO & GREAT TRANS.</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-sutter-st-nr-presidio-2/6806241723.html</td></tr>
+        <tr><td>['']</td><td>1850</td><td> (lower nob hill)</td><td>43505</td><td>One room in 2bd 1bath apartment in lower nob hill</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-one-room-in-2bd-1bath/6815860090.html</td></tr>
+        <tr><td>['']</td><td>3400</td><td> (lower pac hts)</td><td>43505</td><td>Beautiful Apartment-Lower Pac Heights</td><td>https://sfbay.craigslist.org/sfc/apa/d/beautiful-apartment-lower-pac-heights/6815538294.html</td></tr>
+        <tr><td>[" '900", "'"]</td><td>2999</td><td> (north beach / telegraph hill)</td><td>43505</td><td>2-3 Bedrooms + Bonus room + Split bathroom for Rent in North Beach</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2-3-bedrooms-bonus-room/6815507957.html</td></tr>
+        <tr><td>['']</td><td>3300</td><td> (lower nob hill)</td><td>43505</td><td>2 BED SUNNY Remodeled; hdwd, quartz, Micro, dishwasher; 4 closets;</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2-bed-sunny-remodeled/6815279146.html</td></tr>
+        <tr><td>[" '675", "'"]</td><td>2700</td><td> (nob hill)</td><td>43504</td><td>2 bedroom, 1 bathroom apartment</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2-bedroom-1-bathroom/6811835800.html</td></tr>
+        <tr><td>[" '850", "'"]</td><td>2900</td><td> (lower pac hts)</td><td>43504</td><td>SUTTER ST NR. PRESIDIO 2 BR APT. EXC. DESIRABLE LOCATIO & GREAT TRANS.</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-sutter-st-nr-presidio-2/6796761973.html</td></tr>
+        <tr><td>['']</td><td>3500</td><td> (pacific heights)</td><td>43504</td><td>Conveniently Located 2BR</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-conveniently-located-2br/6814406969.html</td></tr>
+        <tr><td>[" '675", "'"]</td><td>3100</td><td> (nob hill)</td><td>43503</td><td>2 Bedrooms flat -  1 Bath</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2-bedrooms-flat-1-bath/6808839802.html</td></tr>
+        <tr><td>[" '675", "'"]</td><td>3300</td><td> (nob hill)</td><td>43503</td><td>2 Bedrooms flat -  1 Bath</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2-bedrooms-flat-1-bath/6808841627.html</td></tr>
+        <tr><td>['']</td><td>3195</td><td> (nob hill)</td><td>43503</td><td>Beautiful 2 Bedroom 1 Bath with 2 Big Walking Closets</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beautiful-2-bedroom-1/6813850217.html</td></tr>
+        <tr><td>['']</td><td>3150</td><td> (nob hill)</td><td>43502</td><td>Spacious Floor Plan Loacted in Fun Neighborhood</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-floor-plan/6807701982.html</td></tr>
+        <tr><td>[" '800", "'"]</td><td>3000</td><td> (nob hill)</td><td>43502</td><td>Pine/Powell Sts 4 rm, 2 bd, liv rm, wd laminate flr, nr fin distric</td><td>https://sfbay.craigslist.org/sfc/apa/d/san-francisco-pine-powell-sts-4-rm-2-bd/6813040619.html</td></tr>
+    </tbody>
+</table>
+
+</html>
