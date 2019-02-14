@@ -68,7 +68,8 @@ body {
 }
 
 .caption h3 {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
+  font-weight: 600;
   text-shadow: .1rem .1rem .5rem black;
 }
 
@@ -81,8 +82,8 @@ body {
 
 .narrow {
     width: 75%;
-    margin: 1.5rem auto;
-    padding-top: 2rem;
+    margin: 1rem auto;
+    
   }
   .narrow h1 {
       font-size: 2.4rem;
@@ -109,7 +110,7 @@ body {
 
 .jumbotron {
   margin-bottom: 0;
-  padding: 2rem 0 3.5rem;
+  padding: 1rem 0 1rem;
   border-radius: 0;
 
   }
@@ -206,6 +207,54 @@ blockquote .svg-inline--fa {
   }
 
 
+/*--- Contact Section  ---*/
+
+footer {
+  background-color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+
+.contactName {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #1EBBA3
+}
+
+
+.contactHeader {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.5rem 0 0.5 rem;
+}
+
+hr.socket {
+  width: 100%;
+ }
+
+ /*--- Media Queries ---*/
+
+ @media (max-width: 767px) {
+  .caption h1 {
+    font-size: 2.3rem;
+    letter-spacing:  .15rem;
+    padding-bottom: .5rem;
+    
+  }
+  
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+    
+  }
+  
+  .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+  }
+}
+
   /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
@@ -223,4 +272,4 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
-=============*/
+  =============*/
