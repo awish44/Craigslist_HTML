@@ -34,27 +34,14 @@
           <li class="nav-item">
               <a class="nav-link" href="#overview">Overview</a>
           </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#data">Data</a>
-          </li>
-          <!-- <li class="nav-item dropdown">
-              <button class="nav-link dropdown-toggle" data-toggle="dropdown" href="#analysis" role = "button" aria-haspopup="true" aria-expanded="false">Analysis</button>
-              <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Neighborhood Analysis</a>
-                    <a class="dropdown-item" href="#">Price vs SqFt</a>
-                    <a class="dropdown-item" href="#"># Apts vs Price</a>
-                    <a class="dropdown-item" href="#"># Post Date vs Price</a>
-                </div>
-          </li> -->
+
             <li class="nav-item dropdown">
                 <button class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Analysis
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Neighborhood Analysis</a>
-                    <a class="dropdown-item" href="#">Price vs SqFt</a>
-                    <a class="dropdown-item" href="#"># Apts vs Price</a>
-                    <a class="dropdown-item" href="#"># Post Date vs Price</a>
+                    <a class="dropdown-item" href="Neighborhood_Analysis.html">Neighborhood Analysis</a>
+                    <a class="dropdown-item" href="Apts_Price.html"># Apts vs Price</a>
                 </div>
             </li>
           <li class="nav-item">
@@ -81,7 +68,7 @@
       
         <h1>Amanda Wishnie's Project</h1>
         <h3>Web Scraping & Analysis</h3>
-        <a class="btn btn-outline-light btn-lg" href="#overview">Click here to dive in!</a>
+
 
     
     </div>       
@@ -93,9 +80,11 @@
 <div id="overview" class="offset">
     <div class="col-12 narrow text-center">
         <h1>How did I find an apartment in SF?</h1>
-        <p class="lead"> Craigslist is the go-to source for findng an apartment in SF but can be a hassle... </p>  
-        <p class="lead"> By using Python and BeautifulSoup I was able to scrape and cleanse apt listings to find exactly what I wanted <br>
-                        Leveraging python-slackclient I shared the results with my future roommate! </p>
+        <p class="lead"> Craigslist is the go-to source for findng an apartment in SF but can be a hassle...<br>  
+                         Using Python and BeautifulSoup, I scraped & cleansed apt listings to find the perfect apartment!<br><br>
+                        Please note:<br> My datascrape had very specific parameters and I ran the data on different days for my analyses.<br>
+                        This resulted in different data for each deep-dive. <br> My findings are based on the data I returned for a very specific goal.
+        </p>
         <a class="btn btn-secondary btn-md" href="https://github.com/awish44/Craigslist_BeautifulSoup" target="_blank">Explore code here</a>
     </div>
 
@@ -154,7 +143,7 @@
 <!--- Start Analysis section here -->
 <div id="analysis" class="offset">
 
-    <!-- Start Jumptron -->
+    <!-- Start Jumptron 
    
     <div class="fixed-background">
     <div class="row dark text-center">
@@ -207,6 +196,7 @@
         
 
         </div> <!-- End of Row -->
+    -->
 
 </div>
 <!--- End Analysis section here -->
@@ -226,7 +216,7 @@
             <div class="col-md-4">
                     <h3> Python Package</h3>
                     <div class="feature">
-                        <p class="lead" >Install slackclient package to send an automated message</p>
+                        <p class="lead" >Install slackclient to send an automated message</p>
                         <a class="btn btn-primary btn-xs" href="https://github.com/slackapi/python-slackclient" target="_blank">Insructions Here</a>
                     </div>
                  </div>           
@@ -234,7 +224,7 @@
                 <div class="col-md-4">
                         <h3>Create Channel & API</h3>
                         <div class="feature">
-                            <p class="lead">After creating your channel, request an API key in order to create a connection</p>
+                            <p class="lead">Create your channel and request an API key</p>
                             <a class="btn btn-primary btn-xs" href="https://api.slack.com/" target="_blank">Slack API Request</a>
                         </div>
                         
@@ -243,7 +233,7 @@
                     <div class="col-md-4">
                             <h3>Code & Chat</h3>
                             <div class="feature">
-                                <p class="lead">After creating your channel, request an API key in order to create a connection</p>
+                                <p class="lead">Now create your message and send away!</p>
                                 <a class="btn btn-primary btn-xs" href="Slack_Code.html" target="_blank">View Results Here!</a>
                             </div>
                             
@@ -264,24 +254,27 @@
 
 <!--- Start Contact section here -->
 
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-
 <div id="contact" class="offset">
     <footer>
         <div class="row justify-content-center">
             <div class="col-md-5 text-center">
-            <img src="img/AW.PNG">
+
+            <div class="contactName text-center"> 
+                <strong>Amanda Wishnie</strong>
+            </div>
             <p> Data Analyst with a passion for translating numbers from spreadsheets into stories that lead to actionable results. 
-                Thrive in a fast-paced startup environment where change and creative ideas are encouraged. Driven by curiosity and ambition to streamline 
-                processes that allow more time for analysis.  Advanced in Excel, SQL, and Python. Meticulously organized with strong interpersonal 
-                skills and a motivated team-player. </p>
-            <strong>Contact Info</strong>
-                <p> (908) 507-3919<br>amanda.wishnie@gmail.com</p> 
-                <div class="LI-profile-badge"  
-                data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" 
-                data-vanity="amanda-wishnie"><a class="LI-simple-link" href='https://www.linkedin.com/in/amanda-wishnie?trk=profile-badge'>Amanda Wishnie</a></div>  
-                <br>
-                <a href="https://www.linkedin.com/in/amanda-wishnie/" target="_blank"></i>GitHub</a>            
+                Driven by curiosity and ambition to streamline processes that allow more time for analysis.
+                Advanced in Excel, Python, and SQL while constantly striving to obtain new technical skills and completed a Data Science Bootcamp at Rutgers. 
+                Took initiative to develop a program that streamlined the data cleanup & mapping process and optimized systematic end to end testing.
+                Equipped with the skills needed to analyze large datasets, implement strategies, improve productivity, and ensure clients have a positive experience.
+             </p>
+            
+                <p> <div class="contactHeader text-center"> <strong>Contact Info</strong> </div> 
+                   (908) 507-3919<br>amanda.wishnie@gmail.com<br> 
+                    <a class="btn btn-primary btn-xs" href="https://github.com/awish44" target="_blank">GitHub</a>
+                    
+                    <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/in/amanda-wishnie/" target="_blank">LinkedIn</a>
+                </p>         
             </div>
 
             <hr class="socket">
