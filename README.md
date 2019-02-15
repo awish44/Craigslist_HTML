@@ -1,7 +1,7 @@
 # Craigslist_HTML
 HTML/CSS Website created to view results of a Craigslist apartment listings web scrape 
 
-Take a look at my website through the below link:
+Take a look at my website through the below link: <br>
 https://awish44.github.io/Craigslist_HTML/
 
 ## Python:
