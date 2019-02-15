@@ -7,7 +7,7 @@ https://awish44.github.io/Craigslist_HTML/
 * View my code [here](https://github.com/awish44/Craigslist_BeautifulSoup)
 
 ## HTML Files:
-[Here](index.html) is the code for my landing page
+[Here](index.html) is the code for my landing page and don't forget to check out my [style sheet](style.css)!
 
 Below is the code for my other pages:
 * [Data Scraping](Scraping_Code.html)
