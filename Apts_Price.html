@@ -19,13 +19,53 @@
 
         </head>
 
+  <!--- Navigation Creation -->
+  <nav class="=navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#"></a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+    <span class="navbar-toggler-icon"></span>
+    </button>
 
+   <div class="collapse navbar-collapse" id="navbarResponsive">
+     <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="index.html#overview">Overview</a>
+        </li>
+
+          <li class="nav-item dropdown">
+              <button class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Analysis
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="Neighborhood_Analysis.html">Neighborhood Analysis</a>
+                  <a class="dropdown-item" href="Apts_Price.html"># Apts vs Price</a>
+              </div>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="index.html#slack">Slack Feature</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="index.html#contact">Contact</a>
+        </li>
+
+     </ul>
+   </div> 
+
+</nav>
 <!-- Image 1  -->
 <div class="col-5 narrow text-center">
+    <br>
+    <br>
+    <br>
+    <br>
         <h1>Apt Listings vs Price</h1>
-        <p> I used a declarative statistical visualization python library, Altair. <br>
+        <p> I leveraged a declarative statistical visualization python library called, Altair. <br>
             I found this library is not only intuitive, but easier to structure than other plotting libraries. <br>
-            The plotting outputs are not only visually appealing, but also interactive!!</p>
+            The plotting outputs are not only visually appealing, but also interactive.</p>
             <a class="btn btn-secondary btn-md" href="https://altair-viz.github.io/getting_started/overview.html" target="_blank">Explore the library here</a>       
 
             <br>
@@ -57,8 +97,8 @@
     <br>
     <br>
 
-    <p> Here is an example of how the Altair library plots are interactive! 
-        When you scroll your mouse over different datapoints, different metrics are displayed based on the conditions you set.
+    <p> Here is a screenshot of the interactivity you get when working with the Altair library in Python. 
+        When you scroll your mouse over the datapoints, different metrics are displayed based on the conditions you set.
         <br>
         <br>
         <strong> See below for my code! </strong>                 

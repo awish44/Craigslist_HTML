@@ -18,13 +18,53 @@
                 </style>
 
         </head>
-
+  <!--- Navigation Creation -->
+  <nav class="=navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#"></a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+       <div class="collapse navbar-collapse" id="navbarResponsive">
+         <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html#overview">Overview</a>
+            </li>
+    
+              <li class="nav-item dropdown">
+                  <button class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Analysis
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="Neighborhood_Analysis.html">Neighborhood Analysis</a>
+                      <a class="dropdown-item" href="Apts_Price.html"># Apts vs Price</a>
+                  </div>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html#slack">Slack Feature</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html#contact">Contact</a>
+            </li>
+    
+         </ul>
+       </div> 
+    
+    </nav>
 
 <!-- Image 1  -->
 <div class="col-5 narrow text-center">
+    <br>
+    <br>
+    <br>
+    <br>
         <h1>Neighborhood Analysis</h1>
         <p> I took a different and more visually appealing approach to this analysis. <br>
-            With the goal of exploring different plots and experimenting with unique ways to share data.</p>
+            Goal of exploring different plots and finding unique ways to make data digestible for any audience.</p>
         <hr class="analysis-hr">
         <hr class="analysis-hr">
         <br>
@@ -36,7 +76,8 @@
         <br>
         <br>
 
-            <p> This Word Cloud demonstrates which neighborhood has the most apartment listings.
+            <p> Word Cloud increase the size of a word baed on the frequency of its occurance in a data-set.
+                This example portrays which neighborhood has the most apartment listings on Craigslist.
                 I leveraged this visual as a starting point to understand which neighborhood I should dig deeper into.
                 Based on the parameters I set and the 28 apartment listings that were returned, Lower Nob Hill appears to be 
                 have the widest variety for what I am looking for.               
