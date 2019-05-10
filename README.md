@@ -2,10 +2,10 @@
 HTML/CSS Website created to view results of a Craigslist apartment listings web scrape 
 
 Take a look at my website through the below link: <br>
-https://awish44.github.io/Craigslist_HTML/
+https://awish44.github.io/craigslist_html/
 
 ## Python:
-* View my code [here](https://github.com/awish44/Craigslist_BeautifulSoup)
+* View my code [here](https://github.com/awish44/craigslist_beautifulsoup)
 
 ## HTML Files:
 [Here](index.html) is the code for my landing page and don't forget to check out my [style sheet](style.css)!
